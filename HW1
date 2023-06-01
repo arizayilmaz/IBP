@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>HW1</title>
+</head>
+<body>
+<h1>Welcome to my page!</h1>
+
+<!-- Link to another website -->
+<a href="https://github.com/arizayilmaz">GitHub</a><br>
+
+<!-- Anchor link to a section on the same page -->
+<a href="#section">Jump to Another Section</a><br>
+
+<!-- Link that dials a phone number -->
+<a href="tel:+123456789">You can reach me at +123456789</a><br>
+
+<!-- Link that runs JavaScript -->
+<a href="javascript:void(0);" onclick="myFunction()">Click me to execute JavaScript</a><br>
+
+<!-- Link that opens the email client -->
+<a href="mailto:alirzayilmaz98@gmail.com">Send an Email to me!</a><br>
+
+<!-- Open the link in a new tab/window -->
+<a href="https://github.com/arizayilmaz" target="_blank">Open my GitHub profile in a New Tab/Window</a><br>
+
+<hr>
+
+<h2 id="section">Section</h2>
+<p>This is a section on the same page.</p>
+
+<script>
+  function myFunction() {
+    alert("Welcome");
+  }
+</script>
+</body>
+</html>
